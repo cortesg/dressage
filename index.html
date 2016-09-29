@@ -5,7 +5,12 @@
 		<title>I WANT TO BE YOUR LADY</title>
 	</head>
 	<body style="margin: 0px">
-		<audio src="baby.mp3" autoplay loop></audio>
-		<img src="horse.gif" style="height: 703px; width: 100%">
+		<audio src="baby.mp3" id="baby"></audio>
+		<img src="horse.gif" onclick="play()" style="height: 703px; width: 100%">
 	</body>
+	<script type="text/javascript">
+		function play(){
+			document.getElementById("baby").play();		
+		}			
+	</script>
 </html>
