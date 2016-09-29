@@ -3,10 +3,25 @@
 	<head>
 		<link rel="shortcut icon" href='logo.gif'>
 		<title>I WANT TO BE YOUR LADY</title>
+		<style type="text/css">
+			body {
+				margin: 0px;
+			}
+			img {
+				height: 703px; 
+				width: 100%
+			}
+			@media (max-width: 400px) {  
+				img {
+					height: 568px;
+				} 
+			}
+		</style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-	<body style="margin: 0px">
+	<body>
 		<audio src="baby.mp3" id="baby" autoplay loop></audio>
-		<img src="horse.gif" onclick="play()" style="height: 703px; width: 100%">
+		<img src="horse.gif" onclick="play()">
 	</body>
 	<script type="text/javascript">
 		function play(){
